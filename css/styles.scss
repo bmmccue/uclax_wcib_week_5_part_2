@@ -1,5 +1,12 @@
 body {
-  padding-top: 5rem;
+  padding-top: 50px;
+  font-family: luna, arial, sans-serif;
+
+  background: url(../images/vwbus.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -8,6 +15,10 @@ body {
 
     label {
       font-weight: bold;
+    }
+
+    h1 {
+      color: white;
     }
 
     div {
@@ -20,8 +31,40 @@ body {
     }
 
     p {
-      background: #FFC125;
-      color: #5E2612;
+      background: #5ec5a1;
+      color: white;
       padding: 10px;
       visibility: hidden;
+      margin-top: 50px;
+      margin-left: 400px;
+      margin-right: 400px;
+      border-width: 5px;
+      border-color: pink;
+      border-radius: 5px;
+    }
+
+    .generator {
+      color: white;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background: #7cafd6;
+      padding-top: 80px;
+      padding-bottom: 50px;
+      padding-left: 100px;
+      margin-top: -200px;
+      margin-left: 400px;
+      margin-right: 400px;
+      border-width: 5px;
+      border-color: #5ec5a1;
+      border-radius: 5px;
+      box-shadow: 5px 5px #b5d6ed;
+    }
+
+    button {
+      background-color: #5ec5a1;
+      color: white;
+      border-width: 5px;
+      border-color: #5ec5a1;
+      border-radius: 5px;
     }
